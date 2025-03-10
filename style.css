@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .main {
+    height: 50vh;
+    display: grid;
+    grid-template-areas: 
+      "aside header header"
+      "aside main main"
+      "aside footer footer";
+    grid-template-columns: 250px 1fr 1fr;
+    grid-template-rows: 60px 1fr 50px;
+  }
+
+  .aside {
+    grid-area: aside;
+    background: lightsalmon;
+    border: 1px solid white;
+    padding-top: 15rem;
+    text-align: center;
+    color: white;
+  }
+
+  .header {
+    grid-area: header;
+    background: lightsalmon;
+    border: 1px solid white;
+    text-align: center;
+    padding-top: 0.5rem;
+    color: white;
+  }
+
+  .main {
+    grid-area: main;
+    background: lightcoral;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+
+  }
+  .footer {
+    grid-area: footer;
+    background: lightsalmon;
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+  }
+
+  .second {
+    margin: 10rem 0;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .one {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background: #9bf381;
+  }
+  .two {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #68f33e;
+  }
+  .three {
+    grid-column: 1/2;   
+    grid-row: 1/2;
+    background: #9bf381;
+  }
+  .four {
+    grid-column: 4/5;
+    grid-row: 1/2;
+    background: #48f513;
+  }
+
+  .one p, .two p, .three p, .four p {
+    text-align: justify;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    color: #2e2222;
+  }
+
+  .third {
+    height: 30vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-bottom: 4rem;
+  }
+
+  .third div {
+    height: 14rem;
+    width: 14rem;
+  }
+
+  .thOne {
+    background: #941818;
+    border: 1px solid wheat;
+    text-align: center;
+    margin: 4rem;
+    color: white;
+  }
+
+  .thTwo {
+    background: #970f0f;
+    border: 1px solid wheat;
+    text-align: center;
+    margin: 4rem;
+    color: white;
+  }
+
+  .thThree {
+    background: #850505;
+    border: 1px solid wheat;
+    text-align: center;
+    margin: 4rem;
+    color: white;
+  }
+
+  .thFour {
+    background: #490202;
+    border: 1px solid wheat;
+    text-align: center;
+    margin: 4rem;
+    color: white;
+  }
+
+  .fourth {
+    height: 35vh;
+    display: grid;
+    grid-template-rows: 10rem 10rem;
+    grid-template-rows: 10rem 10rem;
+    grid-gap: 2rem;
+  }
+
+  .fOne {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background: #295831;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  .fTwo {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background: #155f21;
+    margin-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  .fThree {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    background: #085815;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
+  .fFour {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background: #001a05;
+    margin-bottom: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+  }
