@@ -12,6 +12,7 @@
     "aside footer footer";
   grid-template-columns: 250px 1fr 1fr;
   grid-template-rows: 60px 1fr 50px;
+  text-align: center;
 }
 
 .aside {
@@ -19,7 +20,6 @@
   background: lightsalmon;
   border: 1px solid white;
   padding-top: 15rem;
-  text-align: center;
   color: white;
 }
 
@@ -27,7 +27,6 @@
   grid-area: header;
   background: lightsalmon;
   border: 1px solid white;
-  text-align: center;
   padding-top: 0.5rem;
   color: white;
 }
@@ -36,16 +35,14 @@
   grid-area: main;
   background: lightcoral;
   border: 1px solid white;
-  text-align: center;
   color: white;
-
 }
+
 
 .footer {
   grid-area: footer;
   background: lightsalmon;
   border: 1px solid white;
-  text-align: center;
   color: white;
   padding-top: 1rem;
 }
@@ -54,6 +51,7 @@
   margin: 10rem 0;
   height: 20vh;
   display: grid;
+  gap: 0.5rem;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr;
 }
@@ -95,6 +93,7 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   justify-items: center;
   margin-bottom: 4rem;
+  text-align: center;
 }
 
 .third div {
@@ -104,33 +103,25 @@
 
 .thOne {
   background: #941818;
-  border: 1px solid wheat;
-  text-align: center;
-  margin: 4rem;
+  border: 1px solid black;
   color: white;
 }
 
 .thTwo {
   background: #970f0f;
-  border: 1px solid wheat;
-  text-align: center;
-  margin: 4rem;
+  border: 1px solid black;
   color: white;
 }
 
 .thThree {
   background: #850505;
-  border: 1px solid wheat;
-  text-align: center;
-  margin: 4rem;
+  border: 1px solid black;
   color: white;
 }
 
 .thFour {
   background: #490202;
-  border: 1px solid wheat;
-  text-align: center;
-  margin: 4rem;
+  border: 1px solid black;
   color: white;
 }
 
@@ -140,15 +131,16 @@
   grid-template-rows: 10rem 10rem;
   grid-template-rows: 10rem 10rem;
   grid-gap: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .fOne {
   grid-column: 1/2;
   grid-row: 1/2;
   background: #295831;
-  margin-top: 2rem;
-  text-align: center;
   font-size: 2rem;
+  padding-top: 4rem;
   color: white;
 }
 
@@ -156,9 +148,8 @@
   grid-column: 2/3;
   grid-row: 1/2;
   background: #155f21;
-  margin-top: 2rem;
-  text-align: center;
   font-size: 2rem;
+  padding-top: 4rem;
   color: white;
 }
 
@@ -166,9 +157,8 @@
   grid-column: 1/2;
   grid-row: 2/3;
   background: #085815;
-  margin-bottom: 2rem;
-  text-align: center;
   font-size: 2rem;
+  padding-top: 4rem;
   color: white;
 }
   
@@ -176,8 +166,7 @@
   grid-column: 2/3;
   grid-row: 2/3;
   background: #001a05;
-  margin-bottom: 2rem;
-  text-align: center;
   font-size: 2rem;
+  padding-top: 4rem;
   color: white;
 }
